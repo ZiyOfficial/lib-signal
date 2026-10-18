@@ -1,8 +1,11 @@
 {
-  "name": "@ZiyOfficial/lib-signal",
+  "name": "@ziyofficial/lib-signal",
   "version": "1.0.2",
   "description": "Open Whisper Systems' libsignal for Node.js",
-  "repository": "ZiyOfficial/lib-signal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZiyOfficial/lib-signal.git"
+  },
   "main": "index.js",
   "keywords": [
     "signal",
@@ -15,6 +18,7 @@
     "protobufjs": "6.8.8"
   },
   "files": [
+    "index.js",
     "src/*"
   ],
   "devDependencies": {
